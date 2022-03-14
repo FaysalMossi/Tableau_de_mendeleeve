@@ -1,0 +1,123 @@
+img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 60%;
+}
+#txt
+{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+
+.tab
+{
+    width: auto;
+    height: auto;
+    border-collapse: collapse;
+    padding: 12px;
+    margin: 20px;
+
+}
+
+tr
+{
+    display: flex;
+    margin: 5px;
+    flex-direction: row;
+}
+
+td
+{
+
+    
+    background-color: rgb(251, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 75px;
+    margin: 4px;
+
+}
+#num1
+{
+  background-color: blueviolet;
+}
+
+#tab2
+{
+    border-collapse: collapse;
+    padding: 5px;
+    min-width: 500px;
+    width: auto;
+    
+}
+#tab2 td
+{
+    padding: 5px;
+    margin: 5px;
+    height:auto;
+    width: 75px;
+}
+#num57,#num58,#num59,#num60,#num61,#num62,#num63,#num64,#num65,#num66,#num67,#num68,#num69,#num70
+{
+    background-color: #E68B95;
+}
+#num89,#num90,#num91,#num92,#num93,#num94,#num95,#num96,#num97,#num98,#num99,#num100,#num101,#num102
+{
+    background-color: #C5678E;
+}
+#num3,#num11,#num19,#num37,#num55,#num87
+{
+    background-color: #A3DAC9;
+}
+#num4,#num12,#num20,#num38,#num56,#num88
+{
+    background-color: #CDEBC8;
+}
+#num5,#num14,#num32,#num33,#num51,#num35,#num84,#num52
+{
+    background-color: #F0F9C1;
+}
+#num9,#num17,#num35,#num53,#num85,#num117
+{
+    background-color: #FEECB9;
+}
+#num2,#num10,#num18,#num36,#num54,#num86,#num118
+{
+    background-color: #84B8D7;
+}
+#num21,#num22,#num23,#num24,#num25,#num26,#num27,#num28,#num29,#num30,
+#num39,#num40,#num41,#num42,#num43,#num44,#num45,#num46,#num47,#num48,
+#num71,#num72,#num73,#num74,#num75,#num76,#num77,#num78,#num79,#num80,
+#num103,#num104,#num105,#num106,#num107,#num108,#num109,#num110,#num111,#num112
+{
+    background-color: #F8A78E;
+}
+#num13,#num31,#num49,#num50,#num81,#num82,#num83,#num113,#num114,#num115,#num116
+{
+    background-color: #FECEA0;
+}
+#num6,#num7,#num8,#num15,#num16,#num34,#num1
+{
+    background-color: #9E95C7;
+}
+/*For mobile*/
+@media screen and (max-width:780px)
+{
+    table
+    {
+        zoom: 0.4;
+        font-weight: 0.9vw;
+        flex-wrap: wrap;
+        height: auto;
+        width: 50%;
+
+    }
+}
